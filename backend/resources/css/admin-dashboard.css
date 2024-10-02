@@ -1,0 +1,359 @@
+Total Users Card
+.card-total-users {
+    background-color: #f0f9ff;
+    border: 2px solid #36a2eb;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(54, 162, 235, 0.1);
+}
+
+
+
+
+
+
+/* Bookings Heatmap Card */
+.card-heatmap {
+    background-color: #fff7e6;
+    border: 2px solid #ffcd56;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(255, 205, 86, 0.1);
+}
+
+
+
+
+
+
+/* Growth Rate Card */
+/* Growth Rate Card */
+.card-growth-rate {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(255, 99, 132, 0.1);
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.card-growth-rate h3 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-growth-rate canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Hover effect for the Growth Rate card */
+.card-growth-rate:hover {
+    box-shadow: 0 8px 16px rgba(255, 99, 132, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+
+
+/* Top Service Categories Card with Emojis */
+.card-top-categories {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.card-top-categories h3 {
+    font-size: 1.5em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card-top-categories canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Hover effect for the card */
+.card-top-categories:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+/* Total Bookings Card with 3D Glass Effect */
+.card-total-bookings {
+    background-color: rgba(255, 255, 255, 0.9);  /* Slight transparency */
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(75, 192, 192, 0.3);  /* Stronger shadow for depth */
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.card-total-bookings h3 {
+    font-size: 1.7em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card-total-bookings canvas {
+    width: 100% !important;
+    height: 350px !important;  /* Larger chart height */
+}
+
+#centerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Glow effect for the chart on hover */
+.card-total-bookings:hover {
+    box-shadow: 0 8px 30px rgba(75, 192, 192, 0.5);
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Peak Booking Hours Card */
+.card-peak-booking-hours {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(54, 162, 235, 0.2);
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.card-peak-booking-hours h3 {
+    font-size: 1.7em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card-peak-booking-hours canvas {
+    width: 100% !important;
+    height: 350px !important;  /* Larger chart height */
+}
+
+/* Hover effect for the card */
+.card-peak-booking-hours:hover {
+    box-shadow: 0 8px 30px rgba(54, 162, 235, 0.5);
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Avg Completion Time Card */
+/* Avg Completion Time Card */
+.card-avg-completion-time {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(54, 162, 235, 0.2);
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.card-avg-completion-time h3 {
+    font-size: 1.7em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card-avg-completion-time canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Hover effect for the card */
+.card-avg-completion-time:hover {
+    box-shadow: 0 8px 30px rgba(54, 162, 235, 0.5);
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+/* Avg Response Time Card */
+.card-avg-response {
+    background-color: #e6f7ff;
+    border: 2px solid #33aaff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(51, 170, 255, 0.1);
+}
+
+/* Total Revenue Card */
+.card-total-revenue {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 6px 20px rgba(75, 192, 192, 0.2);
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+}
+
+.card-total-revenue h3 {
+    font-size: 1.7em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.revenue-display {
+    font-size: 3em;
+    color: #4bc0c0;  /* Matching the rest of the theme */
+    font-weight: bold;
+}
+
+/* Hover effect for the card */
+.card-total-revenue:hover {
+    box-shadow: 0 8px 30px rgba(75, 192, 192, 0.5);
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+
+/* Revenue by Category Card */
+.card-revenue-by-category {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(255, 99, 132, 0.2);
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.card-revenue-by-category h3 {
+    font-size: 1.7em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card-revenue-by-category canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Hover effect for the card */
+.card-revenue-by-category:hover {
+    box-shadow: 0 8px 30px rgba(255, 99, 132, 0.5);
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+
+
+/* Booking Forecast Card */
+/* Booking Forecast Card */
+.card-booking-forecast {
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(54, 162, 235, 0.2);
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.card-booking-forecast h3 {
+    font-size: 1.7em;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card-booking-forecast canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Hover effect for the card */
+.card-booking-forecast:hover {
+    box-shadow: 0 8px 30px rgba(54, 162, 235, 0.5);
+    transform: scale(1.05);
+    transition: all 0.4s ease;
+}
+
+
+/* Responsive styling for canvas */
+canvas {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+/* Container styling */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
